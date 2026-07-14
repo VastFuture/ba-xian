@@ -1,0 +1,9 @@
+/node_modules
+/.next
+/out
+/.vercel
+/.omx
+*.log
+.DS_Store
+next-env.d.ts
+.vercel
