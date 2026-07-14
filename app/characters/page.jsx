@@ -3,7 +3,10 @@ import movieData from "@/data/movie.json";
 
 const { characters } = movieData;
 
-export const metadata = { title: "八仙角色图鉴" };
+export const metadata = {
+  title: "八仙角色图鉴",
+  alternates: { canonical: "/characters" },
+};
 
 export default function CharactersPage() {
   return (

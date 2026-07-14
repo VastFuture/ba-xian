@@ -3,6 +3,10 @@ import movieData from "@/data/movie.json";
 
 const { characters, movie } = movieData;
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default function Home() {
   return (
     <>

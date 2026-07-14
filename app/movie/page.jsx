@@ -4,7 +4,10 @@ import Link from "next/link";
 
 const { highlights, latestNews, metrics, movie, voiceCast } = movieData;
 
-export const metadata = { title: "电影介绍" };
+export const metadata = {
+  title: "电影介绍",
+  alternates: { canonical: "/movie" },
+};
 
 export default function MoviePage() {
   return (

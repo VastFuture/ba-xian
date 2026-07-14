@@ -6,6 +6,7 @@ const { _lastUpdated, latestNews, movie } = movieData;
 export const metadata = {
   title: "最新资讯",
   description: `动画电影《${movie.title}》最新上映动态、主创访谈、票房口碑与幕后资讯。`,
+  alternates: { canonical: "/news" },
 };
 
 export default function NewsPage() {
