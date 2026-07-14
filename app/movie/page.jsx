@@ -29,7 +29,12 @@ export default function MoviePage() {
             </div>
             <dl className="mt-5 space-y-4">
               <Info label="片长" value={movie.duration} />
-              <Info label="类型" value={movie.genres.join(" / ")} />
+              <div className="grid grid-cols-[4rem_1fr] gap-2">
+                <dt className="text-sm font-bold text-ink/40">类型</dt>
+                <dd className="flex flex-wrap gap-2">
+                  {movie.genres.map((genre) => <span key={genre} className="border border-ink bg-gold/45 px-2 py-1 text-xs font-black">{genre}</span>)}
+                </dd>
+              </div>
               <Info label="配音" value={movie.cast.join("、")} />
             </dl>
             <p className="mt-6 border-t border-dashed border-ink/25 pt-5 text-xs leading-6 text-ink/50">{movie.releaseNote}</p>
