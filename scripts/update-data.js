@@ -227,6 +227,7 @@ function deduplicate(items) {
 function validateData(value) {
   if (!value?.movie?.title || !value?.movie?.release?.date) throw new Error("movie.json 缺少电影基础信息");
   if (!Array.isArray(value.characters) || value.characters.length !== 8) throw new Error("movie.json 必须包含八位主角");
+  if (value.characters.some((character) => !character.name || !character.image)) throw new Error("每位主角必须配置姓名与形象图片");
   if (!Array.isArray(value.voiceCast) || !value.metrics) throw new Error("movie.json 缺少配音或口碑数据");
 }
 

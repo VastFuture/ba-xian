@@ -55,6 +55,22 @@
 
 .character-card { border: 2px solid var(--color-ink); box-shadow: 7px 8px 0 var(--color-ink); transition: transform .25s ease, box-shadow .25s ease; }
 .character-card:hover { transform: translate(-3px, -5px) rotate(-1deg); box-shadow: 11px 13px 0 var(--color-ink); }
+.character-card:focus-visible { outline: 3px solid var(--color-vermilion); outline-offset: 5px; transform: translate(-3px, -5px); }
+.character-portrait { opacity: 0; transform: scale(1.06); filter: saturate(.92) contrast(1.03); transition: opacity .45s ease, transform .7s cubic-bezier(.2,.8,.2,1); }
+.character-portrait-shade { position: absolute; inset: 0; background: linear-gradient(to top, rgba(24,40,35,.36), transparent 42%); opacity: 0; transition: opacity .45s ease; }
+.character-symbol-ring { transition: opacity .3s ease, transform .5s ease; }
+.character-symbol { transition: opacity .25s ease, transform .5s ease; }
+.portrait-cue { transition: opacity .2s ease, transform .3s ease; }
+.character-card:hover .character-portrait,
+.character-card:focus .character-portrait { opacity: 1; transform: scale(1); }
+.character-card:hover .character-portrait-shade,
+.character-card:focus .character-portrait-shade { opacity: 1; }
+.character-card:hover .character-symbol-ring,
+.character-card:focus .character-symbol-ring,
+.character-card:hover .character-symbol,
+.character-card:focus .character-symbol { opacity: 0; transform: scale(.88) rotate(-6deg); }
+.character-card:hover .portrait-cue,
+.character-card:focus .portrait-cue { opacity: 0; transform: translateY(5px); }
 .card-orange { --card-color: #e98236; }
 .card-teal { --card-color: #69b5a6; }
 .card-pink { --card-color: #e7a1ae; }

@@ -1,5 +1,6 @@
 import { PageHero } from "@/components/PageHero";
 import movieData from "@/data/movie.json";
+import Image from "next/image";
 
 const { characters } = movieData;
 
@@ -24,12 +25,27 @@ export default function CharactersPage() {
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {characters.map((character, index) => (
-              <article key={character.name} className={`character-card card-${character.color} group ${index % 3 === 1 ? "lg:translate-y-8" : ""}`}>
+              <article
+                key={character.name}
+                className={`character-card card-${character.color} group ${index % 3 === 1 ? "lg:translate-y-8" : ""}`}
+                tabIndex={0}
+                aria-label={`${character.name}，悬停或聚焦查看角色海报`}
+              >
                 <div className="relative flex aspect-[4/5] items-center justify-center overflow-hidden border-b-2 border-ink bg-card">
-                  <div className="absolute inset-4 rounded-[50%_45%_55%_40%] border-2 border-ink/15 transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" />
+                  <Image
+                    src={character.image}
+                    alt={`${character.name}官方角色海报`}
+                    fill
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                    loading={index === 0 ? "eager" : "lazy"}
+                    className="character-portrait object-cover"
+                  />
+                  <div className="character-portrait-shade" />
+                  <div className="character-symbol-ring absolute inset-4 rounded-[50%_45%_55%_40%] border-2 border-ink/15" />
                   <span className="absolute right-4 top-4 rotate-6 border border-ink px-2 py-1 text-[10px] font-black tracking-wider">NO.{String(index + 1).padStart(2, "0")}</span>
-                  <span className="relative font-display text-8xl text-ink drop-shadow-[4px_4px_0_rgba(253,251,247,0.75)] transition-transform duration-500 group-hover:-rotate-6 group-hover:scale-110">{character.mark}</span>
+                  <span className="character-symbol relative font-display text-8xl text-ink drop-shadow-[4px_4px_0_rgba(253,251,247,0.75)]">{character.mark}</span>
                   <span className="absolute bottom-4 left-4 bg-ink px-3 py-1 text-xs font-black tracking-wider text-paper">{character.tag}</span>
+                  <span className="portrait-cue absolute bottom-4 right-4 border border-ink bg-paper/90 px-2 py-1 text-[10px] font-black tracking-wider" aria-hidden="true">移入见真容</span>
                 </div>
                 <div className="bg-paper p-5">
                   <p className="text-xs font-bold tracking-widest text-vermilion">{character.alias}</p>
@@ -40,6 +56,9 @@ export default function CharactersPage() {
               </article>
             ))}
           </div>
+          <p className="mt-14 text-center text-xs leading-6 text-ink/45">
+            人物海报来源：<a className="font-bold underline decoration-vermilion/40 underline-offset-4 hover:text-vermilion" href="https://www.sina.cn/news/detail/5318711075672703.html" target="_blank" rel="noreferrer">儒意电影官方账号发布</a>，仅作影片角色信息展示。
+          </p>
         </div>
       </section>
 

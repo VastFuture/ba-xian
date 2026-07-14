@@ -145,6 +145,7 @@
       "alias": "剑客兼气氛组",
       "mark": "吕",
       "color": "orange",
+      "image": "/characters/lu-dong-bin.webp",
       "description": "桃木剑还没开刃，江湖口号已经喊得全街都听见。",
       "tag": "嘴硬心热",
       "voiceActors": [
@@ -157,6 +158,7 @@
       "alias": "汉钟离 · 班主",
       "mark": "钟",
       "color": "teal",
+      "image": "/characters/zhong-li-quan.webp",
       "description": "一把蒲扇管风也管账，草台班子里最像掌柜的人。",
       "tag": "稳中带皮",
       "voiceActors": [
@@ -168,6 +170,7 @@
       "alias": "清醒担当",
       "mark": "何",
       "color": "pink",
+      "image": "/characters/he-xian-gu.webp",
       "description": "荷花不只用来好看，关键时刻也能把烂摊子接住。",
       "tag": "人间清醒",
       "voiceActors": [
@@ -179,6 +182,7 @@
       "alias": "川普推广大使",
       "mark": "拐",
       "color": "gold",
+      "image": "/characters/tie-guai-li.webp",
       "description": "拄着拐杖走得慢，吐槽和救场却永远抢在最前头。",
       "tag": "巴适得板",
       "voiceActors": [
@@ -190,6 +194,7 @@
       "alias": "街头乐师",
       "mark": "湘",
       "color": "blue",
+      "image": "/characters/han-xiang-zi.webp",
       "description": "一支竹笛吹遍蓬莱，遇事先配乐，打架也要卡准鼓点。",
       "tag": "自带BGM",
       "voiceActors": [
@@ -202,6 +207,7 @@
       "alias": "落跑体面人",
       "mark": "曹",
       "color": "red",
+      "image": "/characters/cao-guo-jiu.webp",
       "description": "礼数周全得像来赴宴，其实兜里只剩一张旧请帖。",
       "tag": "讲究人",
       "voiceActors": [
@@ -215,6 +221,7 @@
       "alias": "市集潮人",
       "mark": "蓝",
       "color": "cyan",
+      "image": "/characters/lan-cai-he.webp",
       "description": "花篮装鲜花也装秘密，是整条街最会混搭的显眼包。",
       "tag": "潮得很仙",
       "voiceActors": [
@@ -226,6 +233,7 @@
       "alias": "倒骑派祖师",
       "mark": "张",
       "color": "purple",
+      "image": "/characters/zhang-guo-lao.webp",
       "description": "别人赶路看前方，他倒着骑驴，偏偏总比众人先到一步。",
       "tag": "反向先锋",
       "voiceActors": [

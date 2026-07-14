@@ -34,6 +34,7 @@ test("增量更新只采用相关新信息并保留既有结构", async () => {
     assert.equal(updated.trailer.url, "https://example.com/ba-xian-update");
     assert.equal(updated.latestNews.length, 1);
     assert.equal(updated.characters.length, 8);
+    assert.ok(updated.characters.every((character) => character.image.startsWith("/characters/")));
   } finally {
     await rm(temporaryDirectory, { recursive: true, force: true });
   }
