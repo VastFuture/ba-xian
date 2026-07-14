@@ -1,10 +1,13 @@
 import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import movieData from "@/data/movie.json";
+
+const { movie } = movieData;
 
 export const metadata = {
-  title: { default: "《八仙！》电影官网", template: "%s｜《八仙！》" },
-  description: "动画电影《八仙！》（All Wishes Come True!）静态信息展示网站。八个凡人，硬闯蓬莱。",
+  title: { default: `《${movie.title}》电影官网`, template: `%s｜《${movie.title}》` },
+  description: `动画电影《${movie.title}》（${movie.englishTitle}）静态信息展示网站。八个凡人，硬闯蓬莱。`,
 };
 
 export default function RootLayout({ children }) {

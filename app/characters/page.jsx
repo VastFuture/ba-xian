@@ -1,5 +1,7 @@
 import { PageHero } from "@/components/PageHero";
-import { characters } from "../data";
+import movieData from "@/data/movie.json";
+
+const { characters } = movieData;
 
 export const metadata = { title: "八仙角色图鉴" };
 
@@ -29,6 +31,7 @@ export default function CharactersPage() {
                 <div className="bg-paper p-5">
                   <p className="text-xs font-bold tracking-widest text-vermilion">{character.alias}</p>
                   <h3 className="mt-2 font-display text-3xl">{character.name}</h3>
+                  <p className="mt-2 text-xs font-black text-jade">配音 · {character.voiceActors.join(" / ")}</p>
                   <p className="mt-4 min-h-20 text-sm leading-7 text-ink/60">{character.description}</p>
                 </div>
               </article>

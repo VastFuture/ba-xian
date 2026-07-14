@@ -1,4 +1,5 @@
 import Link from "next/link";
+import movieData from "@/data/movie.json";
 
 const links = [
   ["首页", "/"],
@@ -12,7 +13,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-8">
         <Link href="/" className="group flex shrink-0 items-center gap-3" aria-label="八仙电影首页">
           <span className="grid size-10 rotate-3 place-items-center bg-vermilion font-display text-2xl text-paper shadow-stamp transition-transform group-hover:-rotate-3">八</span>
-          <span className="hidden font-display text-xl tracking-widest text-ink sm:block">八仙！</span>
+          <span className="hidden font-display text-xl tracking-widest text-ink sm:block">{movieData.movie.title}</span>
         </Link>
         <nav aria-label="主导航" className="flex items-center rounded-full border-2 border-ink/15 bg-paper px-1 py-1 shadow-paper md:gap-2 md:px-1.5">
           {links.map(([label, href]) => (

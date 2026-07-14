@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { characters, movie } from "./data";
+import movieData from "@/data/movie.json";
+
+const { characters, movie } = movieData;
 
 export default function Home() {
   return (
@@ -16,7 +18,7 @@ export default function Home() {
             </div>
             <p className="mb-3 text-sm uppercase tracking-[0.32em] text-ink/55">{movie.englishTitle}</p>
             <h1 className="relative font-display text-[clamp(6rem,18vw,12rem)] leading-[0.78] tracking-[-0.08em] text-ink">
-              八仙<span className="text-vermilion">!</span>
+              {movie.title.replace(/[！!]/g, "")}<span className="text-vermilion">!</span>
               <span className="absolute left-[54%] top-[8%] -z-10 size-16 rotate-12 border-4 border-vermilion/70 md:size-24" />
             </h1>
             <p className="mt-10 max-w-xl border-l-4 border-jade pl-5 text-xl font-bold leading-relaxed md:text-2xl">
@@ -34,7 +36,7 @@ export default function Home() {
             <div className="absolute left-2 top-0 z-20 -rotate-6 bg-gold px-4 py-2 font-display text-xl text-ink shadow-paper md:left-0">凡人限定</div>
             <div className="absolute -right-2 bottom-2 z-20 rotate-3 border-4 border-vermilion bg-paper px-5 py-3 text-center shadow-poster md:right-0">
               <p className="text-xs font-black tracking-[0.2em]">全国上映</p>
-              <p className="font-display text-3xl text-vermilion">07.24</p>
+              <p className="font-display text-3xl text-vermilion">{movie.release.date.slice(5).replace("-", ".")}</p>
             </div>
             <div className="relative rotate-[1.5deg] overflow-hidden border-[10px] border-paper bg-jade p-6 shadow-poster-lg md:p-10">
               <div className="absolute inset-0 bg-wave opacity-30" />
@@ -54,13 +56,14 @@ export default function Home() {
           </div>
         </div>
         <div className="mx-auto mt-8 grid max-w-7xl grid-cols-2 border-2 border-ink bg-paper shadow-paper md:grid-cols-4">
-          {[["上映", movie.releaseDate], ["片长", movie.duration], ["类型", "喜剧 / 奇幻"], ["出品", "东方梦工厂"]].map(([label, value]) => (
+          {[["上映", movie.release.display], ["片长", movie.durationLabel], ["类型", movie.genres.slice(0, 2).join(" / ")], ["出品", movie.studio.split("（")[0]]].map(([label, value]) => (
             <div key={label} className="border-ink/20 p-4 odd:border-r md:border-r md:last:border-r-0 md:p-5">
               <p className="text-[10px] font-black tracking-[0.25em] text-vermilion">{label}</p>
               <p className="mt-1 font-bold">{value}</p>
             </div>
           ))}
         </div>
+        <p className="mx-auto mt-4 max-w-7xl text-right text-xs font-bold tracking-wider text-vermilion">{movie.release.note}</p>
       </section>
 
       <section className="bg-flame px-5 py-16 text-ink md:px-8 md:py-24">

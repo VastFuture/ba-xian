@@ -2,11 +2,14 @@
   "name": "ba-xian",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "update-data": "node scripts/update-data.js",
+    "test:update-data": "node --test scripts/update-data.test.js"
   },
   "dependencies": {
     "next": "16.2.10",
