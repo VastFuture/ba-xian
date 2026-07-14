@@ -1,5 +1,6 @@
 import { PageHero } from "@/components/PageHero";
 import movieData from "@/data/movie.json";
+import Link from "next/link";
 
 const { highlights, latestNews, metrics, movie, voiceCast } = movieData;
 
@@ -78,6 +79,11 @@ export default function MoviePage() {
                   <span><strong className="block leading-7 group-hover:text-vermilion">{item.title}</strong><small className="mt-2 block text-ink/45">{item.source} · {formatNewsDate(item.publishedAt)}</small></span>
                 </a>
               ))}
+            </div>
+            <div className="mt-8 text-center">
+              <Link href="/news" className="inline-flex items-center gap-3 border-2 border-ink bg-vermilion px-6 py-3 text-sm font-black tracking-widest text-paper shadow-paper transition hover:-translate-y-1">
+                查看全部资讯 <span aria-hidden="true">→</span>
+              </Link>
             </div>
           </div>
         </section>

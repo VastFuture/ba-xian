@@ -5,6 +5,7 @@ const links = [
   ["首页", "/"],
   ["电影", "/movie"],
   ["角色", "/characters"],
+  ["资讯", "/news"],
 ];
 
 export function SiteHeader() {
