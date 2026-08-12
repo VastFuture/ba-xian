@@ -1,16 +1,16 @@
 {
   "_schemaVersion": 1,
-  "_lastUpdated": "2026-08-11T02:27:01.632Z",
+  "_lastUpdated": "2026-08-12T02:43:52.725Z",
   "movie": {
     "title": "八仙！",
     "englishTitle": "All Wishes Come True!",
     "alternateTitle": "八仙之瞒天过海",
     "release": {
-      "date": "2026-07-18",
-      "display": "2026年7月18日",
-      "originalDate": "2026-07-24",
-      "note": "已从原定7月24日提档至7月18日",
-      "_lastUpdated": "2026-07-14T04:00:00.000Z"
+      "date": "2026-07-24",
+      "display": "2026年7月24日",
+      "originalDate": "2026-07-18",
+      "note": "最新公开信息显示上映日期调整为2026年7月24日",
+      "_lastUpdated": "2026-08-12T02:43:52.725Z"
     },
     "durationMinutes": 144,
     "durationLabel": "144分钟",
@@ -272,6 +272,12 @@
       "publishedAt": "2026-08-09T01:32:01.000Z"
     },
     {
+      "title": "动画电影《八仙！》为何把8位仙人改成市井凡人？‘瞒天过海’计谋取代‘各显神通’ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUGRQYXRiT1hFczNMUDEyazFZRVZSZGNKRUlONG5aaDl5WnhRR1BSVnFiYlZvQnJaNlJXRWEtdWJVYTZkcVZpbnJTMF8wZXg1SG5CeHdNUUs0WnM2TWd2dTJPYjBuM2hHZUxFM1RrUEpWQ1J4U3pSSFRtOUVaVkpib2ZmZ3M?oc=5",
+      "source": "新浪财经",
+      "publishedAt": "2026-08-09T01:27:31.000Z"
+    },
+    {
       "title": "导演牟正洋创作《八仙过海》的灵感来源是什么？ - 新浪财经",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ0lYcF9WSHFmeGNwRXF4a0hVUmZ2XzZudXI1d1hlcWs2QVM1bDBrMHhzaDlvblhKZmJhRm03M2pBX05LRHlQd0cwdTdyY1pKOWF0OENadVZob0l5dW9ZUTItWXVQSVVLZ0M2R054djhDUGVYZm11THF6MHNoZXFOaGotQ1Q?oc=5",
       "source": "新浪财经",
@@ -296,40 +302,34 @@
       "publishedAt": "2026-08-09T00:02:11.000Z"
     },
     {
-      "title": "动画电影《八仙！》曝配音特辑 欢乐声线鲜活塑造凡人八仙群像 - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNQU16b25mdTU3TUxPdWtpRHRvTW14MERSeTYxbFlWTG1hUXMyOG5GM2RpaHpZaFI4eGZ3SHl5WWNnOEpETURHV19pb0Nob0NUVHQyWm84czVmVUVOY0VYMnRabTdKSmNfbWZHYUduSS12TXFMeDMxQ1Y1ZlV3RXltTTRfNGtGcHJyMzhtOUJoN0VEYXNCYXB6R3VFdGNRZDB5LU9HemJzOERCNWRyd2hhZ1ZTRkU5dVRvbmc0MzNKcXA2dkktNC1JWEtidEJwOVpFcFRHZVZ1cHFZbGtjcnZycmNadlF0NndBMFBoSExaeXFkanV6M2ttdGFQa1Fjb1c1eThtSXdRRGRQS1NZMVV4NFdYVzdRYjdwYk9tb1o0c2E1RlBic05R?oc=5",
-      "source": "新浪网",
-      "publishedAt": "2026-08-08T06:10:58.000Z"
+      "title": "八仙过海电影完整盘点：经典院线、网络电影与动画新作 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2UzBUMU9sOHRTRzM0MmFWbzcxN2dWU3h4SHBwQWVVWlI5Q2FQLUFzY2ZvME5VQmdEbnA0bVYwQm9VeVhENlZKU0phSkRiNW4wak9wTkFKT1RIYzZLQU5ZaV85eVB6WkZBYXNvUXR6YXlPdWRJOXpjRW94bmpnUQ?oc=5",
+      "source": "新浪财经",
+      "publishedAt": "2026-08-08T20:03:38.000Z"
     },
     {
-      "title": "动画电影《八仙！》曝动作特辑 苏杭黄成希联手 - 华人头条",
+      "title": "动画电影《八仙！》曝配音特辑 欢乐声线鲜活塑造凡人八仙群像 - ent.sina.cn",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNQU16b25mdTU3TUxPdWtpRHRvTW14MERSeTYxbFlWTG1hUXMyOG5GM2RpaHpZaFI4eGZ3SHl5WWNnOEpETURHV19pb0Nob0NUVHQyWm84czVmVUVOY0VYMnRabTdKSmNfbWZHYUduSS12TXFMeDMxQ1Y1ZlV3RXltTTRfNGtGcHJyMzhtOUJoN0VEYXNCYXB6R3VFdGNRZDB5LU9HemJzOERCNWRyd2hhZ1ZTRkU5dVRvbmc0MzNKcXA2dkktNC1JWEtidEJwOVpFcFRHZVZ1cHFZbGtjcnZycmNadlF0NndBMFBoSExaeXFkanV6M2ttdGFQa1Fjb1c1eThtSXdRRGRQS1NZMVV4NFdYVzdRYjdwYk9tb1o0c2E1RlBic05R?oc=5",
+      "source": "ent.sina.cn",
+      "publishedAt": "2026-08-08T10:12:59.000Z"
+    },
+    {
+      "title": "动画电影《八仙！》曝动作特辑 苏杭黄成希联手 - 52hrtt.com",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLTFsMXR1dmRnTjdvTzM5T183MVVJR0dDMVlyZ2dTdzlwMUJGYTRHUENYeG9yOF9XUmlQMUxncE5NMHBnSkZRZENCZEtDcDhISWZfdUdCMVl3dk9WRlBXMk9pSFlkYXFDaDQtNE9zYjM4YTZMOHk2ZFJGcEY1QTlUUGN2MHloNWc?oc=5",
-      "source": "华人头条",
+      "source": "52hrtt.com",
       "publishedAt": "2026-08-08T02:47:43.000Z"
+    },
+    {
+      "title": "“成都造”动画电影《八仙！》，7月24日全国上映！ - 52hrtt.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdk9jeGtZMUMtR0tPdGJ3dE56MldzYnZYOFRuTGc3eV9uQW5yY1FxaUNnRXlMdVdORWoxUUN6d2ZySXNoZWJEbHBwaXBrdUhPVTlySEE0bXgyS3hHRFo5bXdwNDVmbVRsbUdpWDJwekdQQzctM0pIUWtzSTkxRUJXNno3ZGZFN1E?oc=5",
+      "source": "52hrtt.com",
+      "publishedAt": "2026-08-07T14:42:18.000Z"
     },
     {
       "title": "八仙影评｜零前作导演拍“最难改编IP” 成国产动画电影第一梯队 - 香港01",
       "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxQUmsydFNMd0dId3B3OWJaRU42UEVkZEhtWHVvNzkyWGtRRmRBbVdQcU9NZEFXMWI4RWQ4ODlKa1dyN3dIb29ma1B1ZnROMDVDOFdpcGtqZVdiajBUV2RJOTZ5OG51VnhhX203VFpoRXlZbV9WN3A0YXVHQnU4N1lOSUdUeHdrYVVvOVN0NnpCQjdCSC1lUkpxMlQwY2dqTFdHWk1kMGJLZ0Q2M3hjYVh1aGFXbF9RZ1FLR3J1c2JYN3cxTEhaQnBEV2RPZnhNdi1kMFJ4TEt6ZmQxR2t4Z1NRdWpYTEYxSndjZ2p5ZUlfb2FwU3BFV3I1OHFNeWhpYzQzd3RMX0lhZlFfZjRsU3JJaGstdjJmOFlHUXlvSG5ROHc5dnZReFFjVnpUU0lHck5hWFVpbXFxRjBxMW4tek03VTdTYWU4WERILXduYzhRSzlIbXBlN0NjM3pWampZMzVVY0t2dWRfSnR5c0QtcjdoZ2JHLV9sS29ISFRQb1ZWMFV6TjY2VGE4b002MGdVRkdPS0dULQ?oc=5",
       "source": "香港01",
       "publishedAt": "2026-08-06T11:30:00.000Z"
-    },
-    {
-      "title": "《八仙》1.17亿成本换来11亿票房，导演牟正洋赚多少？ - 手机网易网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05S2dVbjhQM1ZQNGVrOENIOFJLZmlnU2lqajlmMVljMjM1azcwcEVnZFhaOENXREh6emZJTjczVXJTS1ZWWVpVZk9kSE9NYVExMHNjV2RNRTlMVTNiQ2twM3JR?oc=5",
-      "source": "手机网易网",
-      "publishedAt": "2026-08-03T03:55:22.000Z"
-    },
-    {
-      "title": "动画电影《八仙！》今日发布“一起上！”战斗海报 - jinantimes.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9acS1LTUNOSjNMRlFXWFNMdzR3NHU2QmRvanlHUE1LWGRpZVNoaW1JNFoteGtXYTNPTDdKZnI5QzVkR09zZnZYYXRMZGdYWFdQWnBOUWVjXzRKNUVOT1ZGNA?oc=5",
-      "source": "jinantimes.com.cn",
-      "publishedAt": "2026-08-01T07:00:00.000Z"
-    },
-    {
-      "title": "《八仙！》这部电影的主要演员有哪些？ - 新浪网",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fSkFDeWZ2RVZmdkhia2RaZ3o5eHg3dDQ4UW53QkJsdkZYUzMyRHpGcWpCVndnbnR1S3lnTm5lUXdQM0pNZjJHYjJQSmxaLTBBTGliT29GRUZMTFN0R0pjTkJXTE1salBIckVXdDhPa3gzcHc?oc=5",
-      "source": "新浪网",
-      "publishedAt": "2026-07-29T01:02:13.000Z"
     }
   ],
   "trailer": {
