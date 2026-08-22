@@ -1,16 +1,16 @@
 {
   "_schemaVersion": 1,
-  "_lastUpdated": "2026-08-21T01:57:20.494Z",
+  "_lastUpdated": "2026-08-22T01:50:06.516Z",
   "movie": {
     "title": "八仙！",
     "englishTitle": "All Wishes Come True!",
     "alternateTitle": "八仙之瞒天过海",
     "release": {
-      "date": "2026-07-24",
-      "display": "2026年7月24日",
-      "originalDate": "2026-07-18",
-      "note": "最新公开信息显示上映日期调整为2026年7月24日",
-      "_lastUpdated": "2026-08-12T02:43:52.725Z"
+      "date": "2026-07-18",
+      "display": "2026年7月18日",
+      "originalDate": "2026-07-24",
+      "note": "最新公开信息显示上映日期调整为2026年7月18日",
+      "_lastUpdated": "2026-08-22T01:50:06.516Z"
     },
     "durationMinutes": 144,
     "durationLabel": "144分钟",
@@ -260,16 +260,28 @@
   ],
   "latestNews": [
     {
+      "title": "电影《八仙！》曝创作特辑 主创团队各显神通铸就动画佳作 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GVlBLT2FPV0ZfOVM4VWliNEpKMUZ5Y0hWODBjRjFCaHoxSjFReldJb0tqTDZ1Wi1FWlVva3NwVFlTY0pkYW1KOG43ekJzaV9KUzV6WExQR1A5VkpkOUU3cEZ6Z1JpUXRuNkI4dW4tX0U?oc=5",
+      "source": "手机新浪网",
+      "publishedAt": "2026-08-21T02:31:38.000Z"
+    },
+    {
+      "title": "电影《八仙！》提档7月18日 仙凡决战一触即发 - 华人头条",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUV95MmFreTVsbFBqdmgyMTNDWjZsS04xZzdSVTZUaFJzWVI2azBaNG9ua0U1Tnd1c28yekFPMy1FaEpNaW82S056anVBYU4xYVdiMEdNNUlPMXpKT1dTd0ZBWmJJdE5wMzBBcFBiQVVLQWttc0dRYUxVQXBIRmtlR05uVFI5c05KQ0UxRlhB?oc=5",
+      "source": "华人头条",
+      "publishedAt": "2026-08-20T00:23:56.000Z"
+    },
+    {
       "title": "《八仙！》发布“干杯朋友”片段讲了什么？罗云熙配音吕洞宾，票房破11亿的黑马动画值得看吗？ - 手机新浪网",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYnlnYzFZUTE3WGZxZnNLelljdDNpX3l3NE4yZ0oxdlRJOHE3b1lmYTZKaEhpZm1SQkVJdjFfUTR5SkRHRW1jNzRfZnZWWERMdS0yMUtSUU05R1p0ZGw3MFNOWUIyTnN3YjQ1eFo2TXZOeVVlbGlqcUtXd2ppZ3lRNmJjSUNIc01KVEtDVGVhUGdTajJIdFZpNEt5UlQ0QURFMWg5VGx5MVc1Tlk?oc=5",
       "source": "手机新浪网",
       "publishedAt": "2026-08-17T12:54:45.000Z"
     },
     {
-      "title": "《八仙!》英国首映礼在伦敦举行 中国动画扬帆出海 - QQ News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53N192UUQ5Q1BLcVRqSWh6WGUxQjZiR2NvU1ZiM0EyWVdLNl93eXU5TWl2eFpkaU5YTHBwUnljR0JENHJYbC1nTldVdnBmcE9vSVA3WUhR?oc=5",
-      "source": "QQ News",
-      "publishedAt": "2026-08-16T05:31:00.000Z"
+      "title": "《八仙!》英国首映礼在伦敦举行 中国动画扬帆出海 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNTRaNzFjblhQX185cmdwOUxkbWFnLU5Yak9xaG1pcDE3dm04RzFCeUR1ZGs2T1p4M004cFVKTkdwVkt3ci15WWg0TmtyZUpGNTRTWm5oZU04LVpHNzhuZWdmY2NRcld4NUlwbWRDQ3BOc2VKT3ZSaFdYZ0d1bEE4LU9sdEY?oc=5",
+      "source": "新浪财经",
+      "publishedAt": "2026-08-16T06:42:46.000Z"
     },
     {
       "title": "《八仙！》扬帆出海 “四川造”动画再续“过海”传奇 - 四川在线",
@@ -278,28 +290,22 @@
       "publishedAt": "2026-08-16T04:23:55.000Z"
     },
     {
-      "title": "国产动画电影《八仙！》在北美首映，此前已进入中国影史国产动画片票房榜前七 - 17173",
+      "title": "国产动画电影《八仙！》在北美首映，此前已进入中国影史国产动画片票房榜前七 - news.17173.com",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KdDZoSzRuZG1XSE41NjllOEJzaXdNbU52cFJKdDE2c3IxZUVocU5fS1c5alZMSWk1MUFjblk4ajZLVDI2Ulhfc2ZrQklwczZUT2Q2ckx2eVFLamVqWHpzampyR19SQQ?oc=5",
-      "source": "17173",
+      "source": "news.17173.com",
       "publishedAt": "2026-08-15T02:04:33.000Z"
     },
     {
-      "title": "动画电影《八仙！》曝配音特辑 欢乐声线鲜活塑造凡人八仙群像 - 手机新浪网",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPajFFcjJHUE5DX0FIejdxMG5GdUNvX25rQzF3cGpoLU9BMzVqSU9qRGFCT2RGTTFlYlpaM0pRcDJzRTlpR1NrZUVNSkxueW9OLU1oMjZLMXFPaThDVlNCaC1ObXBXUkNkZ0I3aU96cFdwM01ieV9HeHh6MnNEYTZaNkNmMDN0bnNjdExKSkhHUHpYUFNlbFcyUDVRQ3M1R0JRVi04?oc=5",
-      "source": "手机新浪网",
-      "publishedAt": "2026-08-14T18:33:29.000Z"
-    },
-    {
-      "title": "杀入中国影史动画片前10 《八仙！》宣布延长上映至9月17日 - 17173",
+      "title": "杀入中国影史动画片前10 《八仙！》宣布延长上映至9月17日 - news.17173.com",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zZW5pMGl3cFBLclRQQkpXWEY4WjNoM0RJa2lxSjNXZXpkN0M0WGhEWHVSMkNIb1ZXWFFueHByUERvOWpwN1I5YzJQS3RVV185Uy11cGpRanp5b2pPQ0JXWnBROEE?oc=5",
-      "source": "17173",
-      "publishedAt": "2026-08-12T09:06:40.000Z"
+      "source": "news.17173.com",
+      "publishedAt": "2026-08-12T07:00:00.000Z"
     },
     {
-      "title": "《八仙》电影8月出海全球，海外上映时间如何安排？ - finance.sina.com.cn",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT3d0cjdyVk9NOUhlRTQ1REFMVEZBU2dKb2J2R0RGdHhOSkQzWmQwUnJsU2RCQXR2eGdOMG94SjFON3NkekpkRDN4NFJVdi14Z1N0T0hTYW1vZXY2OU5nYmFUaTRLMnVia1Y5RVcxZnRJSkRSVS11NmR1S0o4NUJMb0xwTzQ?oc=5",
-      "source": "finance.sina.com.cn",
-      "publishedAt": "2026-08-09T01:11:45.000Z"
+      "title": "《八仙》电影8月出海全球，海外上映时间如何安排？ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uQUVsR2FFZlhzeG9sMWRmVGgwU1FndXBKaE9uZDd3OHRpOHZVRHpPdGttbnJIbWYxZlgzNHl0MFBXZHdyUktvX0pxUnk3R2o1RU1Bc2NLNF9hSGJXaWpyRVJjckJDZDFyMUN5Z1lINzFuVm41UkR2T3hxLUNQQQ?oc=5",
+      "source": "新浪财经",
+      "publishedAt": "2026-08-09T07:00:00.000Z"
     }
   ],
   "trailer": {
