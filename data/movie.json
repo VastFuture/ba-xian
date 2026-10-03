@@ -1,6 +1,6 @@
 {
   "_schemaVersion": 1,
-  "_lastUpdated": "2026-10-02T05:36:26.612Z",
+  "_lastUpdated": "2026-10-03T05:18:13.619Z",
   "movie": {
     "title": "八仙！",
     "englishTitle": "All Wishes Come True!",
@@ -260,6 +260,18 @@
   ],
   "latestNews": [
     {
+      "title": "20亿票房达成 《八仙！》跻身国产动画影史第三 - 海报新闻",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBGZ1ZiMkZRUVlsbUFxZFAxSVVMVmh6NlFJc3daVVBnUVJJc3BwdDJJV2hxRHQxZHRWdDdERlZkVTJwdDh5aG9SZ1VuRldvdURJ?oc=5",
+      "source": "海报新闻",
+      "publishedAt": "2026-10-02T08:22:00.000Z"
+    },
+    {
+      "title": "《八仙！》票房破20亿 国产动画电影票房超20亿元的都是“四川造” - 四川在线",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByQVlWNG42V2taenN2SEdJM3RzZ3pLMndtWHJrQzdLbE9LUVZtSFZzQkVJUFlFbHpDbS1vOXhyWnVCUmpCVjk4bmVUQ21ieGlORG5pNG9iWG5rMXM?oc=5",
+      "source": "四川在线",
+      "publishedAt": "2026-10-02T06:17:26.000Z"
+    },
+    {
       "title": "“成都造”《八仙！》亮相马耳他、冰岛中国电影展映活动 - 搜狐网",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQekctQWM5dzhYaHZZZkFuRWMwOVhSQUpKakJYVDVlckx0T204QXZIcjV1MFNEY013dmN5V3ZXUDJMMjRYUU1saHRTc004cjhQeEx6N2FkZzNDbjRsUmhPbnJOUF9CV216aGJrMi1PQUd2NGlaemE3c2NBbTc1WWg4NG11U2F1LXpi?oc=5",
       "source": "搜狐网",
@@ -270,18 +282,6 @@
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdUkzajBIVDZ1VWJINTBKMEtETDhSZFRfakhCY1FKdmRXMmNEWE5NS0RIU2pPeWJmMkpfZDR6UHM3Tnk0Ym16blBxTWtyVnNfMVFKaVhQME56SGxpbmt4dWV0ZFlWQWZJZjNab0FodG1yRWYwYmRGUG1WWjU0TEYxNmF1SjJwTUYwT1ZNRmd4dmhEdlBsV2RMc09nbHpkT29fQXFSU1dNclZKa21mVDdQRzNaRGR1M29qREhaVmllUEpUSDlCbERmZ21Pc2lMZVJTTm5GazBxUDNDMUV1eUVEb1pTaElYRUUwbDhMenlnUHpsOWVuaUVHcnpB?oc=5",
       "source": "搜狐网",
       "publishedAt": "2026-09-29T03:17:58.000Z"
-    },
-    {
-      "title": "《哪吒》之后又见《八仙！》 国产动画前三为何皆是“四川造”？ - 四川在线",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBabmhEakZiTTJsX1NCLVI3OVpuVk9MOERsdkUxY21PN0dIcHJjSTVJYllLWUdUVmQ3SllXQnBGRnpEUm1uY0hZMHFNZzcteFRmdXFoa2RncG1wUWs?oc=5",
-      "source": "四川在线",
-      "publishedAt": "2026-09-29T00:06:05.000Z"
-    },
-    {
-      "title": "面对面丨导演牟正洋解读《八仙！》：凡人的彼此守望 才是真正的英雄力量 - 凤凰网",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE05TUE3ZEdGVzhfZjBPOFFxMkY5YTlvRzFUVEpodUQ4X0ZsYmFpN1gwSmlHTnVsRTluQ2s2SDlYVUtfS3JfYWplbnowNS0?oc=5",
-      "source": "凤凰网",
-      "publishedAt": "2026-09-21T07:00:00.000Z"
     }
   ],
   "trailer": {
